@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "test": "node --test --experimental-strip-types test/*.test.ts",
-    "start": "node --experimental-strip-types src/index.ts"
+    "start": "node --experimental-strip-types src/index.ts",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "fastify": "^5.1.0"
